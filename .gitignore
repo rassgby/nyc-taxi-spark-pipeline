@@ -1,0 +1,19 @@
+# Données (jamais committées : trop volumineuses, reproductibles via src/data.py)
+data/
+*.parquet
+*.csv
+
+# Notebooks / Python
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Environnements et secrets
+.venv/
+.env
+
+# Artefacts Spark
+spark-warehouse/
+metastore_db/
+derby.log
